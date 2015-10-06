@@ -12,22 +12,22 @@
 				<form method="POST" action="register.php">
 					<div class="form-input">
 						<span class="username">
-							<input type="text" placeholder="Username">
+							<input type="text" placeholder="Username" name="username">
 						</span>
 					</div>
 					<div class="form-input">
 						<span class="email">
-							<input type="text" placeholder="Email">
+							<input type="text" placeholder="Email" name="email">
 						</span>
 					</div>
 					<div class="form-input">
 						<span class="password">
-							<input type="password" placeholder="Password">
+							<input type="password" placeholder="Password" name="password">
 						</span>
 					</div>
 
 					<div class="form-submit">
-						<input type="submit" value="Je m'inscris !">	
+						<input type="submit" value="Je m'inscris !" name="submit">	
 					</div>
 					<p class="account">Vous avez un compte ? <a href="login.php">Connectez-vous !</a></p>
 				</form>
